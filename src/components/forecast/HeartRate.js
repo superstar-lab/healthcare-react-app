@@ -46,15 +46,15 @@ const config = {
   },
   xAxis: {
     type: 'datetime',
-    tickPixelInterval: 350
+    tickPixelInterval: 150
   },
   yAxis: {
     title: {
       text: null
     },
-    allowDecimals: true
+    allowDecimals: false
   },
-  legend: true,
+  legend: false,
   tooltip: {
     valueSuffix: ' bpm'
   },
